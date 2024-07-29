@@ -181,7 +181,7 @@ table td {
     text-align: left;
 
 }
-
+/* dando color a la  la tabla  */
 
 table tr:nth-child(even) {
     background-color: #e4e1e1;
