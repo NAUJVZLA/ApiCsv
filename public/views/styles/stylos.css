@@ -1,0 +1,188 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    color: #333;
+    background-color: #f5f5f5;
+    line-height: 1.6;
+}
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+/* tamano para el formulario de tipo file */
+.col-4{
+    width: 90%;
+}
+
+h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Fuente de estilo cómic */
+    font-size: 4rem;
+    /* Tamaño grande para impacto visual */
+    font-weight: bold;
+    color: #ffd700;
+    /* Amarillo brillante */
+    text-shadow:
+        3px 3px 0 #c8102e,
+        /* Sombra roja para efecto 3D */
+        -4px -1px 0 #c8102e,
+        2px -1px 0 #c8102e,
+        -1px 1px 0 #c8102e,
+        1px 1px 0 #c8102e;
+    /* Añadir sombra en todas las direcciones para un efecto más fuerte */
+    text-transform: uppercase;
+    /* Convertir texto a mayúsculas */
+    margin: 20px 0;
+    /* Margen para separación */
+    text-align: center;
+    /* centrando el titulo */
+    
+}
+
+h2{
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Fuente de estilo cómic */
+    font-size: 2rem;
+    /* Tamaño grande para impacto visual */
+    font-weight: bold;
+    color: #c8102e;
+    /* Amarillo brillante */
+    text-shadow:
+        3px 3px 0 #ffd700,
+        /* Sombra roja para efecto 3D */
+        -4px -1px 0 #ffd700,
+        2px -1px 0 #ffd700,
+        -1px 1px 0 #ffd700,
+        1px 1px 0 #ffd700;
+    /* Añadir sombra en todas las direcciones para un efecto más fuerte */
+    text-transform: uppercase;
+    /* Convertir texto a mayúsculas */
+    margin: 20px 0;
+    /* Margen para separación */
+    text-align: center;
+margin-left: 20rem;
+    /* centrando el titulo */
+}
+
+/* Form Styling */
+form {
+    border: 4px solid #c8102e;
+    /* Rojo Deadpool */
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    background-color: #fff;
+}
+#downloadCSV{
+    color: #c8102e;
+    background-color: #ffd700;
+    font-weight: bold;
+}
+
+#Botonsubmit:hover {
+    transform: scale(1.05); /* Ampliar ligeramente el botón */
+}
+
+
+#Botonsubmit{
+    color: #ffd700;
+    background-color: #c8102e;
+    font-weight: bold;
+}
+
+#csvFile{
+    color: #ffd700;
+    background-color: #c8102e;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+.form-control{
+    background-color: #ffd700;
+    font-weight: bold;
+    font-size: 0.7rem;
+}
+
+#formulario{
+justify-content: center;
+}
+
+
+button:hover {
+    transform: scale(1.05); /* Ampliar ligeramente el botón */
+}
+
+.page-link{
+    color: #ffd700;
+    background-color: #c8102e;
+    font-weight: bold;
+}
+.page-linkk:hover{
+
+    transform: scale(1.05); /* Ampliar ligeramente el botón */
+
+}
+/* titulo del h1 para el encabezado */
+#titulo {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    /* Fuente de estilo cómic */
+    font-size: 1.5rem;
+    /* Tamaño grande para impacto visual */
+    font-weight: bold;
+    color: #c8102e;
+    /* Amarillo brillante */
+    text-shadow:
+        3px 3px 0 #ffd700,
+        /* Sombra roja para efecto 3D */
+        -1px -1px 0 #ffd700,
+        2px -1px 0 #ffd700,
+        -1px 1px 0 #ffd700,
+        1px 1px 0 #ffd700;
+    /* Añadir sombra en todas las direcciones para un efecto más fuerte */
+    text-transform: uppercase;
+    /* Convertir texto a mayúsculas */
+    margin: 20px 0;
+    /* Margen para separación */
+    text-align: center;
+    /* centrando el titulo */
+}
+
+form input[type="file"] {
+    display: block;
+    margin-bottom: 20px;
+}
+
+
+
+/* Table Styling */
+.table-stripped {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+
+
+}
+
+.col,
+table td {
+    padding: 10px;
+    border: 1px solid #c6baba;
+    text-align: left;
+
+}
+
+
+table tr:nth-child(even) {
+    background-color: #e4e1e1;
+}
